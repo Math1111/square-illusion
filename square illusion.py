@@ -1,8 +1,15 @@
 import pygame
 import random
-
-
 pygame.init()
+import pygame.mixer
+pygame.mixer.init()#
+
+pygame.mixer.music.load("music.mp3")#
+pygame.mixer.music.play(-1)#
+
+line_color=(255, 0, 0)#
+line_width=5#
+
 
 screen_width = 640
 screen_height = 480
